@@ -16,7 +16,7 @@ namespace ListaDeContatos2
                 Tipo = cbxTipo.Text,
             };
 
-            contato.PossuiTelefoneValido()
+            //validar
 
             lblResultado.Text = contato.Mostrar();
         }
